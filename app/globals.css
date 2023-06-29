@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden text-neutral-400;
+}
+
+#__next {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
