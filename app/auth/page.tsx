@@ -69,7 +69,7 @@ const Auth = () => {
                             <span
                                 onClick={toggleVariant}
                                 className="text-neutral-200 font-semibold cursor-pointer hover:underline">
-                                {variant === 'login' ? 'Sign Up now.' : 'Sign In now.'}
+                                {variant === 'login' ? 'Sign Up now!' : 'Log in'}
                             </span>
                         </p>
                     </div>
